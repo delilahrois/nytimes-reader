@@ -1,7 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
+import { getHomeData } from './apiCalls';
 
-function App() {
+const App = () => {
+
+  const getHomePg = async () => {
+    const homeData = await getHomeData()
+    console.log(homeData.results)
+    return homeData;
+  }
+
+
+  useEffect(() => {
+    getHomePg()
+  }, [])
+
+
+
   return (
     <div className="App">
       <header className="App-header">
