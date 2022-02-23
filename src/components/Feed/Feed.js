@@ -19,9 +19,18 @@ const Feed = () => {
 
   const createFeed = () => {
     return homeData.map((article) => {
+      // console.log(article)
       return (
         <Article 
+          key={article.uri}
+          id={article.uri}
           title={article.title}
+          author={article.byline}
+          section={article.section}
+          abstract={article.abstract}
+          media={article.multimedia}
+          url={article.url}
+          updated={article.updated_date}
         />
       )
     })

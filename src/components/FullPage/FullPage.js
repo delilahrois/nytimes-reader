@@ -4,7 +4,7 @@ import './FullPage.css';
 const FullPage = () => {
 
   return (
-
+    <p>Fullpage</p>
   )
 }
 
