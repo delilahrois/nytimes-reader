@@ -1,34 +1,44 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
+// import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import { useEffect } from 'react';
-import { getHomeData } from './apiCalls';
+import { getData } from './apiCalls';
 import './App.css';
 import Menu from '../src/components/Menu/Menu';
 import Header from '../src/components/Header/Header';
+import Feed from '../src/components/Feed/Feed';
 
 const App = () => {
-  const [homeData, setHomeData] = useState('');
+  // const [homeData, setHomeData] = useState([]);
 
-  const getHomePg = async () => {
-    const homeData = await getHomeData()
-    setHomeData(homeData.results)
-    return homeData;
-  }
+  // const getHomePg = async () => {
+  //   const data = await getData('home')
+  //   setHomeData(data.results)
+  //   return homeData;
+  // }
+  
+  
+  
+  
+  // useEffect(() => {
+  //   getHomePg()
+  // }, [])
 
-
-
-
-  useEffect(() => {
-    getHomePg()
-  }, [])
+  // useEffect(() => {
+  //   console.log(homeData)
+  // }, [homeData])
 
 
 
   return (
     <div className="App">
-     <Menu/>
-     <Header/>
+      <div>
+        <Menu/>
+      </div>
+      <div className="main">
+        <Header/>
+        <Feed />
+      </div>
     </div>
   )
 }

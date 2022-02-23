@@ -1,5 +1,8 @@
 .App {
-  height: 100vh;
-  border: 2px solid blue;
+  height: 99vh;
   display: flex;
+}
+
+.main {
+  width: 85%; 
 }

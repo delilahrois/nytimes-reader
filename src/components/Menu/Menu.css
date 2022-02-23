@@ -1,17 +1,17 @@
 .menu {
-  border: 2px solid orange;
   width: 30vh;
-  height: 100%;
+  height: 99%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2% 0;
 }
 
 .keys {
   height: 100%;
   display: flex;
-  border: 2px solid pink;
   flex-direction: column;
   justify-content: space-evenly;
+  border-top: 1px solid black;
 }
 
