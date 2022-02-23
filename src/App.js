@@ -1,41 +1,46 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+// import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import { useEffect } from 'react';
-import { getHomeData } from './apiCalls';
+import { getData } from './apiCalls';
+import './App.css';
+import Menu from '../src/components/Menu/Menu';
+import Header from '../src/components/Header/Header';
+import Feed from '../src/components/Feed/Feed';
 
 const App = () => {
+  // const [homeData, setHomeData] = useState([]);
 
-  const getHomePg = async () => {
-    const homeData = await getHomeData()
-    console.log(homeData.results)
-    return homeData;
-  }
+  // const getHomePg = async () => {
+  //   const data = await getData('home')
+  //   setHomeData(data.results)
+  //   return homeData;
+  // }
+  
+  
+  
+  
+  // useEffect(() => {
+  //   getHomePg()
+  // }, [])
 
-
-  useEffect(() => {
-    getHomePg()
-  }, [])
+  // useEffect(() => {
+  //   console.log(homeData)
+  // }, [homeData])
 
 
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Menu/>
+      </div>
+      <div className="main">
+        <Header/>
+        <Feed />
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
