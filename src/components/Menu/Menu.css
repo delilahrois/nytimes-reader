@@ -1,0 +1,17 @@
+.menu {
+  border: 2px solid orange;
+  width: 30vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keys {
+  height: 100%;
+  display: flex;
+  border: 2px solid pink;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
