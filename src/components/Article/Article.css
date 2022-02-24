@@ -1,9 +1,27 @@
 .article {
   border-top: 1px solid black;
-  height: 15%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-txt {
+  height: 100%;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.img-container {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.feed-img {
+  height: 80%;
 }
 
 .title-link {
@@ -13,6 +31,5 @@
 }
 
 .title-link:hover {
-  font-size: 1.55rem;
   font-weight: bold;
 }

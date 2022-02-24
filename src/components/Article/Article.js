@@ -2,14 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Article.css';
 
-const Article = ({ id, title, author, section, abstract, media, url, updated }) => {
-  console.log(id)
+const Article = ({ id, title, author, media, articleKey, displayArticle }) => {
 
   return (
     <div className="article">
-      <Link to={`/${id}`} className="title-link">{title}</Link>
-      <div>
+      <div className="article-txt">
+        <Link to={`/${id}`} className="title-link" onClick={() => displayArticle(articleKey)}>{title}</Link>
         <p>{author}</p>
+      </div>
+      <div className="img-container">
+        <img className="feed-img" src={media[0].url}/>
       </div>
     </div>
   )
