@@ -2,7 +2,7 @@
 
 <img width="1426" alt="Screen Shot 2022-02-24 at 1 14 30 PM" src="https://user-images.githubusercontent.com/74752738/155583234-ba1fe05f-0660-4697-a7a6-cf81349aea13.png">
 
-This is a takehome challenge for Mod 4 at Turing School of Software & Design. 
+This is a takehome challenge for Mod 4 at Turing School of Software & Design. The rubric can be viewed [here.](https://mod4.turing.edu/projects/take_home/take_home_rubric)
 
 NY Times Reader is an application to allow users to view data from the New York Times Top Stories API. The user can filter search results by all major sections listed on the API as well as a 'home' view which shows articles currently on the homepage. 
 
