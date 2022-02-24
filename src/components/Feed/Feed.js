@@ -8,18 +8,22 @@ const Feed = ({ homeData, displayArticle }) => {
   const createFeed = () => {
     let counter = 0;
     return homeData.map((article) => {
-      counter++;
-      return (
-        <Article 
-          key={article.uri}
-          id={counter}
-          title={article.title}
-          author={article.byline}
-          media={article.multimedia}
-          articleKey={article.uri}
-          displayArticle={displayArticle}
-        />
-      )
+      if(article.title) {
+        counter++;
+        return (
+          <Article 
+            key={article.uri}
+            id={counter}
+            title={article.title}
+            author={article.byline}
+            media={article.multimedia}
+            articleKey={article.uri}
+            displayArticle={displayArticle}
+          />
+        )
+      } else {
+        return;
+      }
     })
   }
 

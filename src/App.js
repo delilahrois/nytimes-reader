@@ -32,13 +32,7 @@ const App = () => {
   }
 
   const filterNewsFeed = (e) => {
-    const value = e.target.value;
-    if(location === '/') {
-      getHomePg(value)
-    } else {
-      getHomePg(value)
-      navigate('/')
-    }
+    getHomePg(e.target.value);
   }
 
   return (

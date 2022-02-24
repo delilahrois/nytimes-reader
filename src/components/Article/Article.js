@@ -11,7 +11,7 @@ const Article = ({ id, title, author, media, articleKey, displayArticle }) => {
         <p>{author}</p>
       </div>
       <div className="img-container">
-        <img className="feed-img" src={media[0].url}/>
+        {/* <img className="feed-img" src={media[0].url}/> */}
       </div>
     </div>
   )
