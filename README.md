@@ -1,4 +1,4 @@
-# 🗽 NY Times Reader 📰 
+# 🗽 [NY Times Reader](https://nytimes-reader.netlify.app/) 📰 
 
 <img width="1426" alt="Screen Shot 2022-02-24 at 1 14 30 PM" src="https://user-images.githubusercontent.com/74752738/155583234-ba1fe05f-0660-4697-a7a6-cf81349aea13.png">
 
@@ -24,6 +24,8 @@ Each individual article can be selected to take the user to a full page view, wh
 Check out the API documentation [here.](https://developer.nytimes.com/docs/top-stories-product/1/overview)
 
 ## Setup Instructions
+
+Deployed site can be accessed [here](https://nytimes-reader.netlify.app/) or in the title of this README.
 
 This project can be run locally.
 
