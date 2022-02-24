@@ -1,38 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Feed.css';
 import Article from '../Article/Article';
-import { getData } from '../../apiCalls';
 
-const Feed = () => {
+const Feed = ({ homeData, displayArticle }) => {
 
-  const [homeData, setHomeData] = useState([]);
-
-  const getHomePg = async () => {
-    const data = await getData('home');
-    setHomeData(data.results);
-    return homeData;
-  }
-
-  useEffect(() => {
-    getHomePg();
-  }, [])
 
   const createFeed = () => {
+    let counter = 0;
     return homeData.map((article) => {
-      return (
-        <Article 
-          title={article.title}
-        />
-      )
+      if(article.title) {
+        counter++;
+        return (
+          <Article 
+            key={article.uri}
+            id={counter}
+            title={article.title}
+            author={article.byline}
+            media={article.multimedia}
+            articleKey={article.uri}
+            displayArticle={displayArticle}
+          />
+        )
+      } else {
+        return;
+      }
     })
   }
-
-
-
-  // useEffect(() => {
-  //   console.log(homeData)
-  //   // createFeed()
-  // }, [homeData])
 
   return (
     <div className="feed">
