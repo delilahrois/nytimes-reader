@@ -41,8 +41,6 @@ This project can be run locally.
 - Loading page
 - Additional styling of the menu and home page / full view page
 - Error handling
-- Testing
-- CI / CD
 
 
 
