@@ -19,6 +19,7 @@ Each individual article can be selected to take the user to a full page view, wh
 - React
 - Router
 - CSS
+- Cypress
 - Netlify
 
 Check out the API documentation [here.](https://developer.nytimes.com/docs/top-stories-product/1/overview)
