@@ -1,0 +1,128 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2022-02-24T18:24:18-05:00",
+  "num_results": 66,
+  "results": [
+      {
+          "section": "world",
+          "subsection": "europe",
+          "title": "Maps: Tracking the Russian Invasion of Ukraine",
+          "abstract": "Russia launched attacks on major cities and airports across Ukraine, shelling more than a dozen cities and towns and crossing the border in multiple locations.",
+          "url": "https://www.nytimes.com/interactive/2022/world/europe/ukraine-maps.html",
+          "uri": "nyt://interactive/b5e90905-5744-5076-b57b-666b3781b15b",
+          "byline": "",
+          "item_type": "Interactive",
+          "updated_date": "2022-02-24T13:51:12-05:00",
+          "created_date": "2022-02-13T23:46:00-05:00",
+          "published_date": "2022-02-13T23:46:00-05:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Defense and Military Forces",
+              "War and Armed Conflicts",
+              "Russian Invasion of Ukraine (2022)"
+          ],
+          "org_facet": [],
+          "per_facet": [],
+          "geo_facet": [
+              "Ukraine",
+              "Russia"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2022/02/13/us/ukraine-maps-promo-1644805701361/ukraine-maps-promo-1644805701361-superJumbo-v10.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1333,
+                  "width": 2000,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/02/13/us/ukraine-maps-promo-1644805701361/ukraine-maps-promo-1644805701361-threeByTwoSmallAt2X-v13.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "The New York Times"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/02/13/us/ukraine-maps-promo-1644805701361/ukraine-maps-promo-1644805701361-thumbLarge-v10.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "",
+                  "copyright": "The New York Times"
+              }
+          ],
+          "short_url": "https://nyti.ms/3HPQBVB"
+      },
+      {
+          "section": "world",
+          "subsection": "europe",
+          "title": "Putin, warning against interference, says that Russia is a ‘powerful nuclear state.’",
+          "abstract": "",
+          "url": "https://www.nytimes.com/live/2022/02/24/world/russia-attacks-ukraine/putin-nuclear-war-ukraine",
+          "uri": "nyt://article/5dd30175-a84b-58dc-b788-e209a288b29a",
+          "byline": "By Roger Cohen",
+          "item_type": "Article",
+          "updated_date": "2022-02-24T11:43:14-05:00",
+          "created_date": "2022-02-24T09:39:21-05:00",
+          "published_date": "2022-02-24T09:39:21-05:00",
+          "material_type_facet": "",
+          "kicker": "",
+          "des_facet": [
+              "Defense and Military Forces",
+              "War and Armed Conflicts",
+              "Nuclear Weapons"
+          ],
+          "org_facet": [],
+          "per_facet": [
+              "Putin, Vladimir V"
+          ],
+          "geo_facet": [
+              "Russia"
+          ],
+          "multimedia": [
+              {
+                  "url": "https://static01.nyt.com/images/2022/02/24/world/24ukraine-briefing-putin-nuclear-1/24ukraine-briefing-putin-nuclear-1-superJumbo.jpg",
+                  "format": "Super Jumbo",
+                  "height": 1182,
+                  "width": 1773,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "President Vladimir V. Putin of Russia speaking at the Kremlin in Moscow on Thursday.",
+                  "copyright": "Russian Presidency, via Agence France-Presse — Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/02/24/world/24ukraine-briefing-putin-nuclear-1/24ukraine-briefing-putin-nuclear-1-threeByTwoSmallAt2X.jpg",
+                  "format": "threeByTwoSmallAt2X",
+                  "height": 400,
+                  "width": 600,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "President Vladimir V. Putin of Russia speaking at the Kremlin in Moscow on Thursday.",
+                  "copyright": "Russian Presidency, via Agence France-Presse — Getty Images"
+              },
+              {
+                  "url": "https://static01.nyt.com/images/2022/02/24/world/24ukraine-briefing-putin-nuclear-1/24ukraine-briefing-putin-nuclear-1-thumbLarge.jpg",
+                  "format": "Large Thumbnail",
+                  "height": 150,
+                  "width": 150,
+                  "type": "image",
+                  "subtype": "photo",
+                  "caption": "President Vladimir V. Putin of Russia speaking at the Kremlin in Moscow on Thursday.",
+                  "copyright": "Russian Presidency, via Agence France-Presse — Getty Images"
+              }
+          ],
+          "short_url": "https://nyti.ms/3BRaLwi"
+      }
+  ]
+}
