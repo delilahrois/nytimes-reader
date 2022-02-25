@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <Link to="/" className="header-link">NY Times Reader</Link>
+      <Link to="/" className="header-link">NY Times Reader 🗽</Link>
 
     </div>
   )

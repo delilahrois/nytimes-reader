@@ -18,6 +18,7 @@ const App = () => {
 
   const getHomePg = async (selection) => {
     const data = await getData(selection);
+    console.log(data)
     setHomeData(data.results);
     return homeData;
   }

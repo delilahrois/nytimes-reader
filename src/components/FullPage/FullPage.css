@@ -11,6 +11,11 @@
   padding-top: 1%;
 }
 
+.section {
+  font-style: italic;
+  font-size: 1rem;
+}
+
 img {
   height: 60vh;
 }
